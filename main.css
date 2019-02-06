@@ -1,0 +1,106 @@
+* {
+    margin: 0; padding: 0;
+}
+.error {
+    color: #FF0000;
+}
+#photos li{
+    float: left;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#content {
+    width: 800px;
+    margin: 0 auto;
+    /*background-color: ;*/
+    padding: 70px;
+    border: 1px solid #4CAF50;
+}
+#photos{
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+input[type=text] {
+    
+    padding: 7px 10px;
+    margin: 8px 0;
+    border: 2px solid #9e767e;
+    border-radius: 4px;
+}
+input[type=text]:focus {
+    background-color: #f9f3cc;
+}
+main{
+    border: 2px dashed black;
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 80px;
+    padding: 70px;
+    display: block;
+}
+
+#button
+{
+ margin: 0 auto;
+ text-align: center;
+ width: 30%;
+ border-radius: 10px;
+ border: none;
+ padding: 10px 20px;
+ color: aliceblue;
+ background-color: #ba9a5e;
+ text-align: center;
+ }
+form { 
+margin: 0 auto; 
+width:500px;
+}
+fieldset
+{
+  background-color:#ddd7cc;
+  padding:16px;	
+}
+legend
+{
+  margin-bottom:0px;
+  margin-left:16px;
+}
+table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+}
+th, td
+{
+    padding: 5px;
+    text-align: left;
+    width: 200px;
+}
+h1,h2,h3
+{
+    text-align: center;
+    font-weight: bold;
+}
+td
+{
+    color: #ba9a5e;
+}
+th{
+    font-size:  20px;
+}
+main{
+    clear: both;
+}
+#errorMsg,#myDiv
+{
+    border: 2px dashed black;
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 80px;
+    padding: 70px;
+    display: block;
+    
+}
